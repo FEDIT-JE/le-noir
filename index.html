@@ -5,21 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Le-Noir Web-Entwicklung</title>
+    <title>Le-Noir</title>
 </head>
-<body>
+<header>
     <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
-          Le-Noir Web-Entwicklung
+            <img src="./images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
+            Le-Noir Web-Entwicklung
         </a>
     </nav>
-    <div>
-        <img src="./images/bg.jpg" class="img-fluid"/>
-        <!--<h3>LE-NOIR</h3>
-        <h6>Web-Entwicklung nach Mass!</h6>-->
+</header>
+<body>
+    <section class="showcase">
+        <img src="./images/bg.jpg" alt="Picture">
+        <div class="overlay">
+            <h2 style="font-weight: bolder;">LE-NOIR</h2>
+            <p>
+                Web-Entwicklung nach Mass!
+            </p>
+        </div>
+    </section>
+
+    <div class="services">
+        <h3 id="services-header">SERVICES</h3>
+        <div class="row services-row">
+            <div class="col-md-3 service-card">
+                <h5 class="services-sub-header">Web-Design</h5>
+                <p>
+                    Vom Konzept zum fertigen Design-Entwurf ihrer Webseite.
+                    <br><br>
+                    Wir nehmen uns Ihre Wünsche zu Herzen und ergänzen Sie durch Jahrelange Expertise
+                    im Bereich des Webdesigns. 
+                </p>
+            </div>
+            <div class="col-md-3 service-card">
+                <h5 class="services-sub-header">Web-Entwicklung</h5>
+                <p>
+                    Wir lassen Ihren Traum real werden!
+                    <br><br>
+                    Dabei ist es uns wichtig, alle Ihre Inputs zu berücksichtigen 
+                    und möglichst zeitnah das perfekte Endprodukt zu liefern. 
+                </p>
+            </div>
+            <div class="col-md-3 service-card">
+                <h5 class="services-sub-header">Support</h5>
+                <p>
+                    Fragen nach Abschluss des Projekts?
+                    <br><br>
+                    Kontaktieren Sie uns jederzeit bei allen Fragen, rund um Ihre Webseite.
+                    Sei es eine Design Anpassung oder eine allgemeine Frage. Wir helfen
+                    Ihnen immer weiter.
+                </p>
+            </div>
+        </div>
     </div>
 
+    <section class="showcase">
+        <img src="./images/appointment-bg.jpg" alt="Picture">
+        <div class="overlay-appointment">
+            <h2 class="appointment-header">BERATUNGSTERMIN</h2>
+            <p class="appointment-text">Vereinbaren sie noch Heute Ihren kostenlosen Beratungstermin!</p>
+            <button type="button" class="btn btn-light"><a href="mailto:jan.eggenberger@bluewin.ch?subject=Beratungstermin" id="appointment-link">Termin vereinbaren</a></button>
+        </div>
+    </section>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
