@@ -34,7 +34,7 @@
   
   .showcase .overlay-appointment {
     width: 100%;
-    height: 500px;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -53,24 +53,13 @@
     font-size: 1.2em;
   }
   
-  .services{
+  .content{
     text-align: center;
     margin: 3%;
   }
 
-  #services-header{
+  .content-header{
     font-weight: bolder;
-  }
-
-  #services-sub-header{
-    font-weight: bolder;
-  }
-
-  .service-card{
-    margin: 4%;
-    padding: 3%;
-    border: 1px solid rgba( 0, 0, 0, 0.2);
-    border-radius: 3%;
   }
 
   #appointment-link{
@@ -85,4 +74,24 @@
 
   #appointment-text{
     margin-bottom: 6%;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+  }
+
+  button.accordion-button:focus{
+    box-shadow: inherit;
+  }
+  .accordion-body{
+    text-align: left;
+  }
+
+  .nav-link{
+    color: black;
+  }
+  
+  .nav-link:hover{
+    color: grey;
   }
