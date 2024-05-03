@@ -4,7 +4,7 @@
 
 Offizielle Webseite für Le-Noir Web-Entwicklung.
 
-🖌️ Web-Design
-💻 Web-Entwicklung
-❓ Support
+- 🖌️ Web-Design
+- 💻 Web-Entwicklung
+- ❓ Support
 
