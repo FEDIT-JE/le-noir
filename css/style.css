@@ -153,3 +153,10 @@
     -ms-border-radius: 50%;
     border-radius: 50%;
   }
+
+  .footer{
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 3%;
+  }
