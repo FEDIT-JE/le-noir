@@ -51,6 +51,11 @@
     vertical-align: middle;
     margin-left:5%;
   }
+
+  .content-text{
+    width: 80%;
+    margin: auto;
+  }
   
   .showcase h2 {
     margin-top: 170px;
@@ -108,12 +113,12 @@
   }
 
   .nav-link{
-    color: black;
+    color: #252525 !important;
     font-weight: bold;
   }
   
   .nav-link:hover{
-    color: grey;
+    color: grey !important;
     font-weight: bold;
   }
 
@@ -161,5 +166,9 @@
     padding: 3%;
   }
   .navbar-toggler{
+    margin-right: 3%;
+  }
+
+  .le-noir-nav{
     margin-right: 3%;
   }
