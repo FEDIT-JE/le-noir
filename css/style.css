@@ -109,8 +109,47 @@
 
   .nav-link{
     color: black;
+    font-weight: bold;
   }
   
   .nav-link:hover{
     color: grey;
+    font-weight: bold;
+  }
+
+  .navbar-brand{
+    font-weight: bold;
+  }
+
+  .reference {
+    padding: 3%;
+    height: auto;
+    background-color: white;
+    color: #252525;
+    text-align: center;
+  }
+  
+  .reference-body{
+    width: 75%;
+    margin: auto;
+  }
+
+  .reference-header{
+    font-weight: 500;
+    margin-bottom: 3%;
+  }
+
+  .profile-thumb {
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
   }
