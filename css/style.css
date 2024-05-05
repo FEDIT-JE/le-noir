@@ -172,3 +172,7 @@
   .le-noir-nav{
     margin-right: 3%;
   }
+
+  .navbar-brand{
+    margin-left: 2% !important;
+  }
