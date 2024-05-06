@@ -19,6 +19,12 @@
     left: 0;
     z-index:99
   }
+
+  .link{
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+  }
   
   .showcase .overlay {
     width: 90%;
@@ -27,7 +33,7 @@
     top: 0;
     left: 0;
     z-index:999;
-    text-align: left;
+    text-align: center;
     margin-left: 5%;
     vertical-align: bottom;
   }  
