@@ -69,11 +69,11 @@
   
   .content{
     text-align: center;
-    margin: 3%;
   }
 
   .content-header{
     font-weight: bolder;
+    margin-top: 2%;
   }
 
   #appointment-link{
@@ -176,3 +176,7 @@
   .navbar-brand{
     margin-left: 2% !important;
   }
+
+.navbar-collapse.show{
+    margin-left: 3%;
+}
