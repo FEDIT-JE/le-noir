@@ -71,7 +71,7 @@
   }
 
   .content-text{
-    width: 80%;
+    width: 65%;
     margin: auto;
   }
   
@@ -204,4 +204,14 @@
   }
   .nav-head{
     margin-top: 3%;
+  }
+
+  .link:hover{
+    color:lightgray;
+  }
+  #accordionFlushExample{
+    width: 65% !important;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
