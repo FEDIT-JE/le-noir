@@ -183,6 +183,10 @@
     margin-left: 2% !important;
   }
 
-.navbar-collapse.show{
-    margin-left: 3%;
-}
+  .navbar-collapse.show{
+      margin-left: 3%;
+  }
+
+  .contact{
+    margin-top: 1%;
+  }
