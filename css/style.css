@@ -38,6 +38,18 @@
     vertical-align: bottom;
   }  
 
+  .overlay-sub {
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    z-index:999;
+    text-align: center;
+    margin-left: 5%;
+    vertical-align: center;
+  }  
+
   .overlay-header{
     font-size: 5rem !important;
   }
@@ -189,4 +201,7 @@
 
   .contact{
     margin-top: 1%;
+  }
+  .nav-head{
+    margin-top: 3%;
   }
