@@ -232,3 +232,26 @@
     margin-right: 7%;
     color: white;
   }
+
+  .about-section{
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  .about-img{
+    padding: 3%;
+    width: 100%;
+  }
+
+  .about-text, h4, h6{
+    font-weight: bold;
+  }
+
+  .about-text{
+    padding: 5%;
+    padding-top: 3%;
+  }
+
+  .about-quote{
+    font-weight: normal;
+  }
