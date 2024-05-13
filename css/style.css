@@ -227,6 +227,8 @@
 
   .carousel-row{
     padding: 5%;
-    text-align: center; 
+    text-align: center !important; 
+    margin-left: 7%;
+    margin-right: 7%;
     color: white;
   }
