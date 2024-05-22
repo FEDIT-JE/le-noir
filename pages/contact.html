@@ -31,7 +31,7 @@
             <a class="nav-link" href="./../pages/web-dev.html">Web Entwicklung</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="./../pages/contact.html">Kontakt</a>
+            <a class="nav-link" href="./../pages/contact.html">Kontak</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./../pages/about.html">Über uns</a>
@@ -42,38 +42,36 @@
   </header>
   <body>
     <section class="showcase">
-      <img src="./../images/bg6.jpg" alt="Picture">
+      <img src="./../images/bg8.jpg" alt="Picture">
       <div class="overlay-sub">
-        <h2 style="font-weight: bolder;" class="overlay-header">ÜBER UNS</h2>
+        <h2 style="font-weight: bolder;" class="overlay-header">KONTAKT</h2>
       </div>
     </section>
 
     <div class="content">
-        <h3 class="content-header">ÜBER UNS</h3>
+        <h3 class="content-header">INTERESSIERT?</h3>
         <p class="content-text"> 
-          Eine perfekte Website für jeden.
-          <br>
-          Wir bei LE NOIR glauben, dass jeder eine Online-Präsenz verdient, die professionell, ansprechend und effektiv ist.
-          <br>
-          Unsere Mission ist es, Menschen mit den Werkzeugen und dem Know-how auszustatten, die sie benötigen, um die perfekte Website für ihre Bedürfnisse zu erstellen, unabhängig von ihren technischen Fähigkeiten oder ihrem Budget.
+          Nehmen sie noch heute Kontakt auf.
         </p>
-        <div class="row about-section">
-          <div class="col-md-12">
-            <img src="./../images/jan.jpg" class="about-img"/> 
+        <form class="row" style="width: 60%; margin: auto; margin-bottom: 3%; margin-top: 3%;" onsubmit="event.preventDefault(); sendMail();">
+          <div class="mb-2 col-md-6">
+            <label for="exampleInputText1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputText1" aria-describedby="nameHelp">
           </div>
-          <div class="col-md-12 about-text">
-            <h4>JAN EGGENBERGER</h4>
-            <h6>CEO | Founder | Web-Entwickler</h6>
-            <br>
-            <p class="about-quote">
-              Wenn du etwas so machst, wie du es seit zehn Jahren gemacht hast, 
-              <br>
-              dann sind die Chancen groß, dass du es falsch machst.
-              <br>
-              – Charles Kettering
-            </p>
+          <div class="mb-2 col-md-6">
+            <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
-        </div>
+          <div class="mb-2 col-md-12">
+            <label for="exampleInputSubject1" class="form-label">Betreff</label>
+            <input type="text" class="form-control" id="exampleInputSubject1" aria-describedby="subjectHelp">
+          </div>
+          <div class="mb-3 col-md-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Ihre Nachricht</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-light col-md-2" style="margin: auto;" type="submit">Absenden</button>
+        </form>  
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
