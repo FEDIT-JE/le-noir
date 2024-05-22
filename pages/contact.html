@@ -42,7 +42,7 @@
   </header>
   <body>
     <section class="showcase">
-      <img src="./../images/bg8.jpg" alt="Picture">
+      <img src="./../images/bg10.jpg" alt="Picture">
       <div class="overlay-sub">
         <h2 style="font-weight: bolder;" class="overlay-header">KONTAKT</h2>
       </div>
@@ -53,7 +53,7 @@
         <p class="content-text"> 
           Nehmen sie noch heute Kontakt auf.
         </p>
-        <form class="row" style="width: 60%; margin: auto; margin-bottom: 3%; margin-top: 3%;" onsubmit="event.preventDefault(); sendMail();">
+        <form class="row" style="width: 60%; margin: auto; margin-bottom: 3%; margin-top: 3%;" onsubmit="sendEmail(event)">
           <div class="mb-2 col-md-6">
             <label for="exampleInputText1" class="form-label">Name</label>
             <input type="text" class="form-control" id="exampleInputText1" aria-describedby="nameHelp">
@@ -70,7 +70,7 @@
             <label for="exampleFormControlTextarea1" class="form-label">Ihre Nachricht</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="button" class="btn btn-light col-md-2" style="margin: auto;" type="submit">Absenden</button>
+          <button type="submit" class="btn btn-light col-md-2" style="margin: auto;" >Absenden</button>
         </form>  
     </div>
 
